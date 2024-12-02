@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: white;
+    }
+    
+    .stopwatch {
+        text-align: center;
+    }
+    
+    #display {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 5px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+    
+    #startStopBtn {
+        background-color: #4CAF50;
+    }
+    
+    #resetBtn {
+        background-color: #f44336;
+    }
+    
+  </style>
+    <!-- <style>
+
+
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 40px;
+        }
+    </style>
+    <div style="width: 400px; height: 400px; border: 1px solid darkblue; padding: 20px;">
+        <i style="display: flex; justify-content: center; align-items: center; font-size: 35px;"
+            class="fa-solid fa-clock"></i>
+        <div style="display: flex; align-items: center; justify-content: center; margin-top: 60px;">
+
+            <h1>00</h1>
+            <h2>:</h2>
+            <h1>00</h1>
+            <h2>:</h2>
+            <h1>00</h1>
+            <h3>.0</h3>
+        </div>
+
+        <div style="position: relative; top: 60px; right: -111px;">
+            <button style="width: 60px; height: 60px; background-color: cadetblue; border-radius: 50%; border: none;"><i
+                    style="font-size: 25px; color: #fff;" class="fa-solid fa-play"></i></button>
+            <button
+                style="width: 60px; height: 60px; background-color: cadetblue; border-radius: 50%; border: none;margin-left: 20px;"><i
+                    style="font-size: 25px; color: #fff;" class="fa-solid fa-rotate-left councel"></i></button>
+        </div>
+
+    </div> -->
+
+    <div class="stopwatch">
+        <h1 id="display">00:00:00</h1>
+        <div class="buttons">
+            <button id="startStopBtn">Boshlash</button>
+            <button id="resetBtn">Qayta boshlash</button>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
